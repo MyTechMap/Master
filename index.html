@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d38e7c060.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Texas Tech University Map</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="logo/ttu-logo.png" alt="Texas Tech University logo with text">
+        <a href="#" id="sign-in">Sign-In <i class="fa-solid fa-chevron-right"></i></a>
+    </header>
+    <section id="map-content">
+        <div id="map">
+        </div>
+        <div id="controls">
+            <span id="topper">
+                <i id="toggle-button" class="fa-solid fa-caret-right"></i>
+                <h2 id="toggle-text" class="list-header">Hide Map Controls</h2>
+            </span>
+            <div data-visible="true" id="content">
+                <div id="search">
+                    <p><i class="fa-solid fa-magnifying-glass"></i>Search</p>
+                </div>
+                <div id="filters">
+                    <h2 class="list-header">Student</h2>
+                    <ul>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-heart" style="color: rgb(253, 45, 97)"></i> Favorites
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-house-chimney"></i>Residence Halls
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-graduation-cap"></i> Lecture Halls
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-utensils"></i> Dining
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </ul>
+                    <h2 class="list-header">Transportation</h2>
+                    <ul>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-bus"></i> Bus Stops
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-square-parking" style="color: rgb(78, 160, 255)"></i> Parking
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-bolt-lightning" style="color: rgb(239, 255, 96)"></i> Electric
+                                Scooter Hub
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-location-dot" style="color: rgb(255, 51, 51)"></i> Campus Entry
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </ul>
+                    <h2 class="list-header">Other</h2>
+                    <ul>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-location-dot" style="color: rgb(253, 156, 45)"></i> Notable
+                                Locations
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-location-dot" style="color: rgb(142, 255, 97)"></i> Public Art
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-square-phone" style="color: rgb(116, 255, 248)"></i> Emergency
+                                Phones
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <i class="fa-solid fa-person-breastfeeding" style="color: rgb(237, 98, 255)"></i> Mother
+                                Friendly
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
